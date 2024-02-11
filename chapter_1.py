@@ -32,4 +32,32 @@ print(a)
 #  AND OR IT WOWK ON TWO VALUE
 # NOT WILL WORK ON ONE VALUE
 
+# TYPE CASTING
+a="7"
+b=8
+print(type(a))
+a=int("7")
+print(type(a))
+
+#   INPUT STATMENT
+
+input("enter your name : ")
+
+val = int(input("ENTER YOUR AGE: "))
+print(type(val))
+print(val)
+
+#  practice question 1
+num1=input("ENTER YOUR FIRST NUMBER :  ")
+num2=input("ENTER YOUR SECOND NUMBER :  ")
+print("THE ",num1,"+ ",num2,"=",num1+num2)
+
+#  practice question 2
+side=int(input("ENTER THE LENGTH OF ONE SIDE OD A SQUARE"))
+side *=side
+print("THE  AREA OF SQUARE IS :",side)
+
+
+
+
 
